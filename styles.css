@@ -4,10 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.hero-container {
 .hero-container {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
+  padding: 20px;
   padding: 20px;
   line-height: 1.6;
   background-color: white;
@@ -21,15 +28,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(./images/DP.jpg);
 }
 
 .nav-container h1 {
-  color: black;
+  color: white;
 }
 
-/* .nav-items{
-} */
 .logs {
   display: flex;
   justify-content: space-between;
@@ -111,6 +115,7 @@ nav ul li a {
   height: 50vh;
 }
 
+
 #collections {
   width: 300px;
 }
@@ -122,10 +127,11 @@ section {
   padding: 20px;
   background-color: white;
   /* margin: 20px 0; */
+  /* margin: 20px 0; */
 }
 
 footer {
-  background-color: rgb(255, 0, 0);
+  background-color: orangered;
   color: white;
   text-align: center;
   padding: 10px 0;
